@@ -1,0 +1,57 @@
+*** WORK LOG otautz ***
+|-------+-------+------------------------------------------------------   |
+| Total | Hours | Activity                                                |
+|-------+-------+------------------------------------------------------   |
+* Week 15 (calendar-week)                                                 |
+|     3 |     3 | Setting up gits, Installing virtualenv etc.             |
+|     4 |     1 | Debugging java errors when using minerl                 |
+* Week 16 (calendar-week)                                                 |
+|     5 |     1 | Debugging java errors when using minerl                 |
+|     6 |     1 | Running and looking into other solutions  [1],[2]       |
+|     7 |     1 | Meeting                                                 |
+|     9 |     2 | Examine which solution is more suitable. Decided [2]    |
+|    13 |     4 | Getting it to run. Porting to cpu, fixing dataloading   |
+|    15 |     2 | Understanding Code, reading linked papers [3],[4],[5]   | 
+|    17 |     2 | Setting up Debugger and permalinks [permalinks_miffyli] |
+* Week 17 (calendar-week)                                                 |
+|    18 |     1 | Meeting                                                 |
+|  18.5 |    0.5| Trying to run in colab [6]. It has only 12 GB of ram ;( |
+|    19 |    0.5| Try using kaggle. Its running so far :) [7]             |
+|    21 |    2  | Use google cloud. No GPU :/ But working for data        |
+|    22 |    1  | Run other solution while waiting [8]                    |
+|  23.5 |    1.5| Dataset working. Trying on kaggle                       |
+|                 Setup debugger for meeting.                             |
+|  24   |   0.5 | meeting                                                 |
+* Week 18 (calendar-week)                                                 |
+|  25   |   1   | Brush up on basics and new concepts[9][10][11][12]      |
+|  28   |   2   | meeting                                                 |
+|  30   |   2   | Understand Miffily more detailed. Make drawing [14]     |
+|  31   |   1   | Run current MichaelOP Model.                            |
+|                 Start uploading to dataset of Myffily to kaggle         |
+|  31.5 |   0.5 | Prepare test for MichaelOP Model                        |
+|  32.5 |   1   | Run Miffily on kaggle. It works! but too slow (20 hours)|
+|  34.5 |   2   | Examine MichaelOP solution.                             |
+|               | Print out shapes and make (hand)drawing                 |[1] 3rd-place solution https://github.com/Oliver-Tautz/MineRL2020
+[2] 4th-place solution https://github.com/Oliver-Tautz/minecraft-bc-2020
+[3] IMPALA Paper. https://arxiv.org/pdf/1802.01561.pdf
+[4] R2D3 Paper. https://arxiv.org/pdf/1909.01387.pdf
+[5] LSTM wikipedia https://en.wikipedia.org/wiki/Long_short-term_memory
+[6] https://colab.research.google.com/drive/1W3WHCPJXLmYZ9DruRIRj0mn4MqzekKeM?usp=sharing
+[7] https://www.kaggle.com/olivertautz/notebook25223b8587/edit
+[8] https://colab.research.google.com/drive/1nnYX-pHcaUonYioVU5z5GwT4znS_Guel?usp=sharing[9] Backprop video: https://www.youtube.com/watch?v=tIeHLnjs5U8 book: https://www.deeplearningbook.org/contents/mlp.html Chapter 6.5
+[10] RNN book: https://www.deeplearningbook.org/contents/rnn.html#pfa article: http://www.wildml.com/2015/10/recurrent-neural-networks-tutorial-part-3-backpropagation-through-time-and-vanishing-gradients/
+[11] lstm paper: https://www.researchgate.net/profile/Sepp-Hochreiter/publication/13853244_Long_Short-term_Memory/links/5700e75608aea6b7746a0624/Long-Short-term-Memory.pdf?origin=publication_detail
+[12] BBTT paper: http://axon.cs.byu.edu/~martinez/classes/678/Papers/Werbos_BPTT.pdf
+[13] AC3 paper: https://arxiv.org/abs/1602.01783
+[14] Miffily(4th place) drawing: https://drive.google.com/file/d/1A4_cAlRi1x3l0OWCMRDtRDpUsFW7hf_L/view?usp=sharing[permalinks_miffyli]model and input_size    : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/Model.txt
+model forward pass      : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/torch_codes/modules.py#L334
+kmeans                  : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/wrappers/action_wrappers.py#L90
+remove framskipped      : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/wrappers/action_wrappers.py#L180
+optimizer               : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/train_bc_lstm.py#L117
+random flip augmentation: https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/train_bc_lstm.py#L134
+training: input data    : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/train_bc_lstm.py#L92
+training: main loop     : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/train_bc_lstm.py#L143
+training: dropout       : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/train_bc_lstm.py#L186
+training: forward pass  : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/train_bc_lstm.py#L211
+training: losses        : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/train_bc_lstm.py#L241
+trainingL backpass      : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/train_bc_lstm.py#L258
