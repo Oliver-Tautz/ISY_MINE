@@ -1,17 +1,28 @@
 # Some notes about shapes
 
 
-* pov shape: (1529, 64, 64, 3)
-* reward shape: (1529,)
-* nextobs shape: (1529, 64, 64, 3)
-* done shape: (1529,)
-* attack shape: (1529,)
-* back shape: (1529,)
-* camera shape: (1529, 2)
-* forward shape: (1529,)
-* jump shape: (1529,)
-* left shape: (1529,)
-* right shape: (1529,)
-* sneak shape: (1529,)
-* sprint shape: (1529,)
-* attack shape: (1529, 64, 64, 3)
+## Treechop
+
+* pov shape    : (frames, 64, 64, 3)
+* reward shape : (frames,)
+* nextobs shape: (frames, 64, 64, 3)
+* done shape   : (frames,)
+* attack shape : (frames,)
+* back shape   : (frames,)
+* camera shape : (frames, 2)
+* forward shape: (frames,)
+* jump shape   : (frames,)
+* left shape   : (frames,)
+* right shape  : (frames,)
+* sneak shape  : (frames,)
+* sprint shape : (frames,)
+* attack shape : (frames, 64, 64, 3)
+
+## Treechop-obf
+
+* pov shape    : (frames, 64, 64, 3)
+* obs_vector   : (frames,64)
+* action_vector: (frames,64)
+* reward       : (frames,)
+* done         : (frames,)
+

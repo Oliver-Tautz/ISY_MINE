@@ -31,7 +31,13 @@
 |  31.5 |   0.5 | Prepare test for MichaelOP Model                        |
 |  32.5 |   1   | Run Miffily on kaggle. It works! but too slow (20 hours)|
 |  34.5 |   2   | Examine MichaelOP solution.                             |
-|               | Print out shapes and make (hand)drawing                 |[1] 3rd-place solution https://github.com/Oliver-Tautz/MineRL2020
+|               | Print out shapes and make (hand)drawing                 |
+* Week 18 (calendar-week)                                                 |
+|  35   |   0.5 | Setup Miffily solution for testing                      |
+
+
+
+[1] 3rd-place solution https://github.com/Oliver-Tautz/MineRL2020
 [2] 4th-place solution https://github.com/Oliver-Tautz/minecraft-bc-2020
 [3] IMPALA Paper. https://arxiv.org/pdf/1802.01561.pdf
 [4] R2D3 Paper. https://arxiv.org/pdf/1909.01387.pdf
