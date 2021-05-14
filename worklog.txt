@@ -16,7 +16,7 @@
 * Week 17 (calendar-week)                                                 |
 |    18 |     1 | Meeting                                                 |
 |  18.5 |    0.5| Trying to run in colab [6]. It has only 12 GB of ram ;( |
-|    19 |    0.5| Try using kaggle. Its running so far :) [7]             |
+|    19 |    0.5| Try using kaggGggle. Its running so far :) [7]             |
 |    21 |    2  | Use google cloud. No GPU :/ But working for data        |
 |    22 |    1  | Run other solution while waiting [8]                    |
 |  23.5 |    1.5| Dataset working. Trying on kaggle                       |
@@ -32,8 +32,12 @@
 |  32.5 |   1   | Run Miffily on kaggle. It works! but too slow (20 hours)|
 |  34.5 |   2   | Examine MichaelOP solution.                             |
 |               | Print out shapes and make (hand)drawing                 |
-* Week 18 (calendar-week)                                                 |
+* Week 19 (calendar-week)                                                 |
 |  35   |   0.5 | Setup Miffily solution for testing                      |
+|  36   |    1  | meeting                                                 |
+|  37   |    2  | Convert 3rdplace to treechop. Make videos               |
+|  39   |    2  | Start adapting 3rdplace to new environment              |
+|  40.5 |   1.5 | Make drawing of 3rdplace [15]                           |
 
 
 
@@ -50,6 +54,9 @@
 [12] BBTT paper: http://axon.cs.byu.edu/~martinez/classes/678/Papers/Werbos_BPTT.pdf
 [13] AC3 paper: https://arxiv.org/abs/1602.01783
 [14] Miffily(4th place) drawing: https://drive.google.com/file/d/1A4_cAlRi1x3l0OWCMRDtRDpUsFW7hf_L/view?usp=sharing[permalinks_miffyli]model and input_size    : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/Model.txt
+[15] MichaelOP(3rd-Place) drawing: https://drive.google.com/file/d/1ze-QHVb0G7ZJ4rfuE5AP2aQndRCHQwAC/view?usp=sharing 
+
+
 model forward pass      : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/torch_codes/modules.py#L334
 kmeans                  : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/wrappers/action_wrappers.py#L90
 remove framskipped      : https://github.com/Oliver-Tautz/minecraft-bc-2020/blob/master/wrappers/action_wrappers.py#L180
