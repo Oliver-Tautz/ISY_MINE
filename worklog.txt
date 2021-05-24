@@ -38,8 +38,21 @@
 |  37   |    2  | Convert 3rdplace to treechop. Make videos               |
 |  39   |    2  | Start adapting 3rdplace to new environment              |
 |  40.5 |   1.5 | Make drawing of 3rdplace [15]                           |
-
-
+|  41.5 |   1   | Analyze dataset actions                                 |
+|  42.5 |   1   | Make pycharm pro run ... this should have been easy ;(  |
+* Week 20 (calendar-week)                                                 |
+|  44.5 |   2   | meeting                                                 |
+|  46.5 |   2   | make actions->onehot function                           |
+|  47.5 |   1   | make actions->onehot function                           |
+|  49.5 |   2   | make onehot-> actions + testing                         |
+|  49.5 |   0.5 | start working on loader                                 |
+|  52.5 |   3   | Make loader use new input.                              |
+|                 Write simple logger.                                    |
+|                 Change Model for new input                              |
+|  54.5 |   2   | Understand how to use and setup slurm                   |
+* Week 20 (calendar-week)                                                 |
+|  58.5 |   4   | cleanup code + debug slurm. It works now i think :)     |
+|       |       | Make same code work on cpu+gpu                          |
 
 [1] 3rd-place solution https://github.com/Oliver-Tautz/MineRL2020
 [2] 4th-place solution https://github.com/Oliver-Tautz/minecraft-bc-2020
