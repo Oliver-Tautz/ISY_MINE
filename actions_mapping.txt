@@ -1,0 +1,55 @@
+attack &                                                              	187955
+Nothing                                                                	39467
+forward &                                                             	21653
+attack & pitch_negative &                                             	17742
+attack & forward &                                                    	12930
+attack & pitch_negative & yaw_negative &                              	 9915
+attack & pitch_negative & yaw_positive &                              	 9374
+attack & pitch_positive &                                             	 9248
+attack & pitch_positive & yaw_negative &                              	 7308
+attack & pitch_positive & yaw_positive &                              	 7132
+attack & yaw_positive &                                               	 6524
+attack & yaw_negative &                                               	 6372
+pitch_positive & yaw_negative &                                       	 6187
+pitch_positive & yaw_positive &                                       	 5935
+forward & jump &                                                      	 5377
+forward & sprint &                                                    	 4517
+forward & pitch_negative & yaw_positive &                             	 3607
+forward & pitch_positive & yaw_negative &                             	 3542
+forward & pitch_negative & yaw_negative &                             	 3320
+forward & yaw_negative &                                              	 3269
+forward & pitch_positive & yaw_positive &                             	 3206
+pitch_negative & yaw_positive &                                       	 3108
+forward & yaw_positive &                                              	 3095
+attack & forward & pitch_negative &                                   	 3013
+pitch_negative & yaw_negative &                                       	 2994
+pitch_positive &                                                      	 2803
+attack & forward & sprint &                                           	 2762
+forward & left &                                                      	 2250
+pitch_negative &                                                      	 2231
+forward & right &                                                     	 2071
+attack & forward & pitch_negative & yaw_negative &                    	 2024
+attack & forward & pitch_negative & yaw_positive &                    	 2018
+forward & pitch_negative &                                            	 1762
+attack & forward & pitch_positive &                                   	 1706
+yaw_positive &                                                        	 1675
+forward & pitch_positive &                                            	 1665
+yaw_negative &                                                        	 1566
+attack & forward & jump &                                             	 1444
+attack & forward & pitch_positive & yaw_positive &                    	 1226
+attack & forward & pitch_positive & yaw_negative &                    	 1096
+forward & jump & sprint &                                             	 1040
+forward & sprint & yaw_negative &                                     	  950
+forward & sprint & yaw_positive &                                     	  898
+forward & jump & yaw_negative &                                       	  857
+attack & forward & yaw_positive &                                     	  814
+forward & jump & yaw_positive &                                       	  806
+forward & sprint & pitch_negative & yaw_positive &                    	  772
+forward & jump & pitch_positive & yaw_negative &                      	  748
+forward & jump & pitch_positive & yaw_positive &                      	  724
+attack & forward & yaw_negative &                                     	  681
+
+
+
+0.06641072909132606% of actions mapped to zero/closest vector with best 50
+0.12037371884206255% of actions mapped to zero/closest vector with best 30
