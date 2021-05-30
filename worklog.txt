@@ -53,6 +53,12 @@
 * Week 20 (calendar-week)                                                 |
 |  58.5 |   4   | cleanup code + debug slurm. It works now i think :)     |
 |       |       | Make same code work on cpu+gpu                          |
+|  60.5 |   2   | meeting                                                 |
+|  62.5 |   2   | setup python 3.8 env on citec.                          |
+|  64.5 |   2   | investigate and correct model.                          |
+|               |  add some convenience functions.                        |  
+|  66.5 |   2   | Debug model. I think i found it! :) add some features   |
+|  100.5|   4   | integrate resnet into model architecture                |
 
 [1] 3rd-place solution https://github.com/Oliver-Tautz/MineRL2020
 [2] 4th-place solution https://github.com/Oliver-Tautz/minecraft-bc-2020
