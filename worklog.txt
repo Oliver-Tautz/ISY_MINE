@@ -50,7 +50,7 @@
 |                 Write simple logger.                                    |
 |                 Change Model for new input                              |
 |  54.5 |   2   | Understand how to use and setup slurm                   |
-* Week 20 (calendar-week)                                                 |
+* Week 21 (calendar-week)                                                 |
 |  58.5 |   4   | cleanup code + debug slurm. It works now i think :)     |
 |       |       | Make same code work on cpu+gpu                          |
 |  60.5 |   2   | meeting                                                 |
@@ -58,7 +58,7 @@
 |  64.5 |   2   | investigate and correct model.                          |
 |               |  add some convenience functions.                        |  
 |  66.5 |   2   | Debug model. I think i found it! :) add some features   |
-|  70.5|   4   | integrate resnet into model architecture                |
+|  70.5 |   4   | integrate resnet into model architecture                |
 
 [1] 3rd-place solution https://github.com/Oliver-Tautz/MineRL2020
 [2] 4th-place solution https://github.com/Oliver-Tautz/minecraft-bc-2020
