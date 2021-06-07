@@ -59,6 +59,12 @@
 |               |  add some convenience functions.                        |  
 |  66.5 |   2   | Debug model. I think i found it! :) add some features   |
 |  70.5 |   4   | integrate resnet into model architecture                |
+* Week 22 (calendar-week)                                                 |
+|  71   |   0.5 | meeting                                                 |
+* Week 23 (calendar-week)                                                 |
+|  73   |   2   | integrate validation. Update citec                      |
+
+
 
 [1] 3rd-place solution https://github.com/Oliver-Tautz/MineRL2020
 [2] 4th-place solution https://github.com/Oliver-Tautz/minecraft-bc-2020
