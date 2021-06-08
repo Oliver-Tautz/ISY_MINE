@@ -62,8 +62,9 @@
 * Week 22 (calendar-week)                                                 |
 |  71   |   0.5 | meeting                                                 |
 * Week 23 (calendar-week)                                                 |
-|  73   |   2   | integrate validation. Update citec                      |
 
+|  73   |   2   | integrate validation. Update citec                      |
+|  79   |   6   | Fully rewrite loading and train loop                    |
 
 
 [1] 3rd-place solution https://github.com/Oliver-Tautz/MineRL2020
