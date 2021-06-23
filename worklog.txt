@@ -69,10 +69,11 @@
 |  83   |   2   | debug new  loading and train loop                       |
 |  83   |   1   | debug training and compile findings                     |
 * Week 24 (calendar-week)                                                 |
-|  86   |   3   | debug prediction vizualizer and analyze                 |
-|  90   |   4   | implement random dataset and shuffled loading           |
-|  94   |   4   | debug new code and run it on citec                      |
-|  97   |   3   | implement new testing and cleanup git                   |
+|  84   |   1   | meeting
+|  87   |   3   | debug prediction vizualizer and analyze                 |
+|  91   |   4   | implement random dataset and shuffled loading           |
+|  95   |   4   | debug new code and run it on citec                      |
+|  98   |   3   | implement new testing and cleanup git                   |
 * Week 25 (calendar-week)                                                 |
 |  98   |   1   | meeting                                                 |
 |  100  |   2   | implement better data                                   |
