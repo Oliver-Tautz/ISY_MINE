@@ -80,7 +80,7 @@
 |  103  |   3   | debug masks                                             |
 |  106  |   3   | reimplement testing                                     |
 |  108  |   2   | make testing threaded                                   |
-
+|  110  |   2   | add quality control. train new batch                    |
 
 
 [1] 3rd-place sol|ution https://github.com/Oliver-Tautz/MineRL2020
