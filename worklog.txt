@@ -74,6 +74,11 @@
 |  94   |   4   | debug new code and run it on citec                      |
 |  97   |   3   | implement new testing and cleanup git                   |
 * Week 25 (calendar-week)                                                 |
+|  98   |   1   | meeting                                                 |
+|  100  |   2   | implement better data                                   |
+|  103  |   3   | debug masks                                             |
+|  106  |   3   | reimplement testing                                     |
+|  108  |   2   | make testing threaded                                   |
 
 
 
