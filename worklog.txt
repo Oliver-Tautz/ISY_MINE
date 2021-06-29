@@ -81,7 +81,10 @@
 |  106  |   3   | reimplement testing                                     |
 |  108  |   2   | make testing threaded                                   |
 |  110  |   2   | add quality control. train new batch                    |
-
+|  111  |   1   | eval/test new batch                                     |
+* Week 26 (calendar-week)                                                 |
+|  114  |   3   | try to test, fix bugs in dataloading                    |
+|  115  |   1   | meeting                                                 |
 
 [1] 3rd-place sol|ution https://github.com/Oliver-Tautz/MineRL2020
 [2] 4th-place solution https://github.com/Oliver-Tautz/minecraft-bc-2020
