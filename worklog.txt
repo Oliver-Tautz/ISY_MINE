@@ -85,6 +85,11 @@
 * Week 26 (calendar-week)                                                 |
 |  114  |   3   | try to test, fix bugs in dataloading                    |
 |  115  |   1   | meeting                                                 |
+|  121  |   6     test new batch. analyze. change dataloading.            |
+|       |         make visualization threaded. train new batch. debug .   |
+| 122.5 |   1.5 |    implement weighted loss                              |
+| 126   |   3.5 |    implement robust testing                             |
+
 
 [1] 3rd-place sol|ution https://github.com/Oliver-Tautz/MineRL2020
 [2] 4th-place solution https://github.com/Oliver-Tautz/minecraft-bc-2020
