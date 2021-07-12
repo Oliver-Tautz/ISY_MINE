@@ -89,13 +89,14 @@
 |       |         make visualization threaded. train new batch. debug .   |
 | 122.5 |   1.5 |    implement weighted loss                              |
 | 126   |   3.5 |    implement robust testing                             |
-* Week 26 (calendar-week)                                                 |
+* Week 27 (calendar-week)                                                 |
 | 127.5 |   1.5 | meeting                                                 |
 | 128.5 |   1   | add 'no-lstm' option.                                   |
 | 130.5 |   2   | debug training loop                                     |
 | 131.5 |   1   | look at and compile results                             |
-
-
+| 133.5 |   2   | implement and debug mean-substract                      |
+| 136.5 |   3   | implement and debug ros                                 |
+| 137.5 |   1   | look at and compile results                             |
 
 
 
