@@ -97,10 +97,12 @@
 | 133.5 |   2   | implement and debug mean-substract                      |
 | 136.5 |   3   | implement and debug ros                                 |
 | 137.5 |   1   | look at and compile results                             |
-
-
-
-
+* Week 28 (calendar-week)                                                 |
+| 128.5 |   1   | meeting                                                 |
+| 139.5 |   1   | research and implement multilabel loss                  |
+| 140   |   0.5 | talk with marco about cluster                           |
+| 142   |   2   | implement and debug multilabel training                 |
+| 144   |   2   | implement and debug multilabel testing                  |
 
 
 
