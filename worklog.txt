@@ -103,6 +103,14 @@
 | 140   |   0.5 | talk with marco about cluster                           |
 | 142   |   2   | implement and debug multilabel training                 |
 | 144   |   2   | implement and debug multilabel testing                  |
+* Week 29 (calendar-week)                                                 |
+| 145   |   1   | meeting                                                 |
+| 146   |   1   | personal meeting                                        |
+| 149   |   3   | implement and debug multilabel sampling apporaches      |
+| 151   |   2   | implement new ros for multilabel approach               |
+| 153   |   2   | debug multisample ros and run on slurm                  |
+| 154   |   1   | evaluate  new approaches                                |
+
 
 
 
