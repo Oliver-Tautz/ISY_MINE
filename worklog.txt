@@ -110,6 +110,15 @@
 | 151   |   2   | implement new ros for multilabel approach               |
 | 153   |   2   | debug multisample ros and run on slurm                  |
 | 154   |   1   | evaluate  new approaches                                |
+* Week 30 (calendar-week)                                                 |
+| 155   |   1   | meeting                                                 |
+| 156   |   1   | personal meeting                                        |
+| 159   |   3   | implement and debug 'min reward' option                 |
+| 162   |   3   | implement and debug 'reduced multilabel' option         |
+| 164   |   2   | place agent in front of trees                           |
+| 166   |   2   | train new models and debug cluster                      |
+| 167   |   1   | view eval results                                       |
+
 
 
 
