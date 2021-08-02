@@ -58,7 +58,7 @@ with masks, min_reward=2
 
 no masks, min_reward=3
 
-*epoch 13: can get blocks. does not move much. maybe good in front of tree? does not look up/down as much
+* epoch 13: can get blocks. does not move much. maybe good in front of tree? does not look up/down as much
 * epoch15: looks down
 * epoch5: erratic. looks down. jumps a lot
 * epoch7:  same as 5
