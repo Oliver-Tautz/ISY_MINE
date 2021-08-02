@@ -23,7 +23,7 @@ no masks, min_reward=2
 * epoch 7: kind of looking at the tree
 * epoch 9: nothing muich
 
-## multilabel_ros_1
+## multilabel_ros_2
 
 no masks, min_reward=3
 
