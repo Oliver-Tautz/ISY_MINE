@@ -1,0 +1,19 @@
+Training
+Iteration 1000. Loss 2.349     
+Iteration 2000. Loss 2.114     
+Iteration 3000. Loss 2.039     
+Iteration 4000. Loss 1.980     
+Iteration 5000. Loss 1.929     
+Iteration 6000. Loss 1.907     
+Iteration 7000. Loss 1.869     
+Iteration 8000. Loss 1.861     
+Iteration 9000. Loss 1.825     
+Iteration 10000. Loss 1.820     
+Iteration 11000. Loss 1.810     
+Iteration 12000. Loss 1.791     
+Iteration 13000. Loss 1.778     
+Iteration 14000. Loss 1.758     
+Iteration 15000. Loss 1.764     
+Iteration 16000. Loss 1.743     
+Iteration 17000. Loss 1.739     
+Training done

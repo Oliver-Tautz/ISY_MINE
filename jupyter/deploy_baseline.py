@@ -21,19 +21,57 @@ class NatureCNN(nn.Module):
     :param output_dim: Dimensionality of the output vector
     """
 
-    def __init__(self, input_shape, output_dim):
+    def __init__(self, input_shape, output_dim,latent_pic_dim=4):
         super().__init__()
         n_input_channels = input_shape[0]
-        self.cnn = nn.Sequential(
-            nn.Conv2d(n_input_channels, 32, kernel_size=8, stride=4, padding=0),
-            nn.ReLU(),
-            nn.Conv2d(32, 64, kernel_size=4, stride=2, padding=0),
-            nn.ReLU(),
-            nn.Conv2d(64, 64, kernel_size=3, stride=1, padding=0),
-            nn.ReLU(),
-            nn.Flatten(),
-        )
+        
+        if latent_pic_dim ==8:
+            
+            self.cnn = nn.Sequential(
+                nn.Conv2d(n_input_channels, 64, kernel_size=8, stride=4, padding=0),
+                nn.ReLU(),
+                nn.Conv2d(64, 64, kernel_size=4, stride=1, padding=0),
+                nn.ReLU(),
+                nn.Conv2d(64, 128, kernel_size=3, stride=1, padding=0),
+                nn.ReLU(),
+                nn.Conv2d(128, 128, kernel_size=3, stride=1, padding=0),
+                nn.ReLU(),
+                nn.Flatten()
 
+            )
+
+        elif latent_pic_dim == 4:
+            self.cnn = nn.Sequential(
+                nn.Conv2d(n_input_channels, 64, kernel_size=8, stride=4, padding=0),
+                nn.ReLU(),
+                nn.Conv2d(64, 64, kernel_size=4, stride=2, padding=0),
+                nn.ReLU(),
+                nn.Conv2d(64, 128, kernel_size=3, stride=1, padding=0),
+                nn.ReLU(),
+                nn.Conv2d(128, 128, kernel_size=1, stride=1, padding=0),
+                nn.ReLU(),
+                nn.Flatten()
+
+            )
+        elif latent_pic_dim ==1:
+            self.cnn = nn.Sequential(
+                nn.Conv2d(n_input_channels, 64, kernel_size=8, stride=4, padding=0),
+                nn.ReLU(),
+                nn.Conv2d(64, 64, kernel_size=4, stride=2, padding=0),
+                nn.ReLU(),
+                nn.Conv2d(64, 128, kernel_size=4, stride=1, padding=0),
+                nn.ReLU(),
+                nn.Conv2d(128, 128, kernel_size=3, stride=1, padding=0),
+                nn.ReLU(),
+                nn.Flatten()
+
+            )
+        else:
+            print("You can only use 8,4, or 1 as latent pic dim!")
+            exit(-1)
+            
+            
+            
         # Compute shape by doing one forward pass
         with th.no_grad():
             n_flatten = self.cnn(th.zeros(1, *input_shape)).shape[1]
@@ -41,14 +79,17 @@ class NatureCNN(nn.Module):
         self.linear = nn.Sequential(
             nn.Linear(n_flatten, 512),
             nn.ReLU(),
+            nn.Dropout(0.5),
             nn.Linear(512, output_dim)
         )
 
     def forward(self, observations: th.Tensor) -> th.Tensor:
+        
         return self.linear(self.cnn(observations))
 
 class ResearchPotatoWrapper():
-    def __init__(self, model_dir):
+
+    def __init__(self, model_dir,latent_pic_dimension):
 
         modelname = "research_potato.pth"
         kmeans_modelname = "centroids_for_research_potato.npy"
@@ -61,7 +102,7 @@ class ResearchPotatoWrapper():
         self.action_centroids = np.load(self.kmeans_filepath)
         self.num_actions = self.action_centroids.shape[0]
         # setup network
-        self.network = NatureCNN((3, 64, 64), self.num_actions).to(self.dev)
+        self.network = NatureCNN((3, 64, 64), self.num_actions,latent_pic_dimension).to(self.dev)
         self.network.load_state_dict(th.load(self.model_filepath,map_location=self.dev))
         
         # list of descrete actions to sample from (usually [0..99]
