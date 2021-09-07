@@ -58,21 +58,21 @@ class ResearchPotatoWrapper():
         # use gpu if available.
         self.dev = th.device("cuda:0" if th.cuda.is_available() else "cpu")
         # load and count centroids
-        self.action_centroids = np.load(kmeans_model_filepath)
+        self.action_centroids = np.load(self.kmeans_filepath)
         self.num_actions = self.action_centroids.shape[0]
         # setup network
-        self.network = NatureCNN((3, 64, 64), self.num_actions).to(dev)
-        self.network.load_state_dict(th.load(network_filepath))
+        self.network = NatureCNN((3, 64, 64), self.num_actions).to(self.dev)
+        self.network.load_state_dict(th.load(self.model_filepath,map_location=self.dev))
         
         # list of descrete actions to sample from (usually [0..99]
-        self.action_list = np.arange(num_actions)
+        self.action_list = np.arange(self.num_actions)
     
-    def predict_action(obs):
+    def predict_action(self,obs):
         # Process the action:
         #   - Add/remove batch dimensions
         #   - Transpose image (needs to be channels-last)
         #   - Normalize image
-        obs = th.from_numpy(obs['pov'].transpose(2, 0, 1)[None].astype(np.float32) / 255).to(dev)
+        obs = th.from_numpy(obs['pov'].transpose(2, 0, 1)[None].astype(np.float32) / 255).to(self.dev)
         
         #forward
         logits = self.network(obs)
@@ -81,7 +81,7 @@ class ResearchPotatoWrapper():
         # to numpy. overwrite old tensor
         probs = probs.detach().cpu().numpy()
         # sample
-        discrete_action = np.random.choice(action_list,p=probabilities)
+        discrete_action = np.random.choice(self.action_list,p=probs)
         # get nearest centroid
         action = self.action_centroids[discrete_action]
 
