@@ -23,7 +23,7 @@ no masks, min_reward=2
 * epoch 7: kind of looking at the tree
 * epoch 9: nothing muich
 
-## multilabel_ros_1
+## multilabel_ros_2
 
 no masks, min_reward=3
 
@@ -56,7 +56,22 @@ with masks, min_reward=2
 
 ## multilabel_ros_reduced_2
 
+no masks, min_reward=3
+
+* epoch 13: can get blocks. does not move much. maybe good in front of tree? does not look up/down as much
+* epoch15: looks down
+* epoch5: erratic. looks down. jumps a lot
+* epoch7:  same as 5
+* epoch9:  
+
+## multilabel_ros_reduced_3
+
 with masks, min_reward=3
+
+* epoch11: looks up, pretty ok once at tree. promising
+* epoch13,15 maybe ok at tree idk.
+* epoch5: erratic. not useful
+* epoch7: gets lots of blocks. but not the trees. this is promising ...
 
 
 

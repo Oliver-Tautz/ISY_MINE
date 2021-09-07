@@ -118,9 +118,8 @@
 | 164   |   2   | place agent in front of trees                           |
 | 166   |   2   | train new models and debug cluster                      |
 | 167   |   1   | view eval results                                       |
-
-
-
+* Week 31 (calendar-week)                                                 |
+| 169   |   2   | meeting                                                 |
 
 
 [1] 3rd-place sol|ution https://github.com/Oliver-Tautz/MineRL2020
