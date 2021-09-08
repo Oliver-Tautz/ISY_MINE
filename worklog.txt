@@ -120,6 +120,12 @@
 | 167   |   1   | view eval results                                       |
 * Week 31 (calendar-week)                                                 |
 | 169   |   2   | meeting                                                 |
+* Week 36 (calendar-week)                                                 |
+| 172   |   3   | inspecting new BC baseline                              |
+| 174   |   2   | group meeting                                           |
+| 182   |   8   | test and change new baseline                            |
+| 192   |   10  | test and evaluate new baseline                          |
+
 
 
 [1] 3rd-place sol|ution https://github.com/Oliver-Tautz/MineRL2020
