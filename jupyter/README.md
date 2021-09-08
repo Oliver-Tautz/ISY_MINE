@@ -49,7 +49,7 @@ Only call from rewards directory, otherwise it will fail
 ## Results so far
 All metrics (mean,std etc) are computed on the total reward of 25 episodes.
 '0_count' is the number of episodes where the agent could not get a single reward.
-Note that 'epochs' are of different size for the different datasets. The filtered ones are about the same size, the unfiltered (-1) one is about twice the size of the others.
+Note that 'epochs' are of different size for the different datasets. The filtered ones are about the same size, the unfiltered (-1) one is about twice the size of the others. So 3 full-size epochs are 
 
 | epochs | w_left | w_right | n_clusters | latent_pic_dim | mean  | std  | max | min | 0_count |
 |--------|--------|---------|------------|----------------|-------|------|-----|-----|---------|
@@ -59,5 +59,5 @@ Note that 'epochs' are of different size for the different datasets. The filtere
 | 3      | 40     | 40      | 70         | 4              | 5.64  | 3.65 | 13  | 0   | 1       |
 | 3      | 40     | 20      | 70         | 4              | 5.8   | 3.83 | 12  | 0   | 3       |
 | 3      | -1     | -1      | 70         | 4              | **8.6**   | 5.38 | 22  | 0   | 2       |
-| 8      | 40     | 20      | 70         | 4              | **10.88**| 5.77 | 22  | 0   | 2       |
-| 6      | 40     | 20      | 70         | 4              |       |      |     |     |         |
+| 8      | 40     | 20      | 70         | 4              | **10.88** | 5.77 | 22  | 0   | 2       |
+| 6      | 40     | 20      | 70         | 4              | **8.88**  | 5.2  | 18  | 0   | 3       |
