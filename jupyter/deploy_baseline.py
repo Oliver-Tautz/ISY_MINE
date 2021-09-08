@@ -105,6 +105,9 @@ class ResearchPotatoWrapper():
         self.network = NatureCNN((3, 64, 64), self.num_actions,latent_pic_dimension).to(self.dev)
         self.network.load_state_dict(th.load(self.model_filepath,map_location=self.dev))
         
+        # set to eval()
+        self.network.eval()
+
         # list of descrete actions to sample from (usually [0..99]
         self.action_list = np.arange(self.num_actions)
     
