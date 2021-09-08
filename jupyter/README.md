@@ -6,7 +6,7 @@ There are 2 notebooks here, train.ipynb and eval_ipynb. Also deploy_baseline.py 
 
 Train the edited baseline also defined in deploy_baseline.py.
 
-* should be runnable on **colab** or** kaggle**.
+* should be runnable on **colab** or **kaggle**.
   * set `skip_install=False`
 * It will load the treechop dataset from ./data
   * uncomment the download if it is not present!
