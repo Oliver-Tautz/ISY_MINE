@@ -44,3 +44,17 @@ This is a simple implementation which can be used to deploy a trained model. Fin
 ## eval.py
 small script evaluating the eval data saved in the .json files. Evaluates all json filed in the directory without error checking.
 Only call from rewards directory, otherwise it will fail
+
+
+## Results so far
+| epochs | w_left | w_right | n_clusters | latent_pic_dim | mean | std  | max | min | 0_count |
+|--------|--------|---------|------------|----------------|------|------|-----|-----|---------|
+| 3      | 40     | 40      | 100        | 1              | 4.28 | 4    | 13  | 0   | 8       |
+| 3      | 40     | 40      | 100        | 4              | 4.64 | 4    | 15  | 0   | 4       |
+| 3      | 40     | 40      | 40         | 4              | 2.64 | 1.7  | 7   | 0   | 4       |
+| 3      | 40     | 40      | 70         | 4              | 5.64 | 3.65 | 13  | 0   | 1       |
+| 3      | 40     | 20      | 70         | 4              | 5.8  | 3.83 | 12  | 0   | 3       |
+| 3      | -1     | -1      | 70         | 4              | 8.6  | 5.38 | 22  | 0   | 2       |
+| 6      | 40     | 20      | 70         | 4              |      |      |     |     |         |
+| 8      | 40     | 20      | 70         | 4              |      |      |     |     |         |
+
