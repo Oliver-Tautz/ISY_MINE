@@ -22,7 +22,7 @@ Train the edited baseline also defined in deploy_baseline.py.
 * If you want to **train locally**, youll need the imported packages present in your environment
   * the install cells probably wont work. Maybe the pip ones do
   * I recommend using python 3.8
-  * to use a venv in you notebook follow this [post]("https://veekaybee.github.io/2020/02/18/running-jupyter-in-venv/")
+  * to use a venv in you notebook follow this [post](https://veekaybee.github.io/2020/02/18/running-jupyter-in-venv/)
 * trained models are saved in a folder. **WARNING. Using the same hyperparams multiple times will overwrite saved models**
 
 ## eval.ipynb
