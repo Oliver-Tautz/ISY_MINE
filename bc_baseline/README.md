@@ -3,7 +3,7 @@
 There are 2 notebooks here, train.ipynb and eval_ipynb. Also deploy_baseline.py and eval.py files. 
 
 Find already trained models in [research_baseline_models](https://github.com/Oliver-Tautz/ISY_MINE/tree/master/jupyter/research_baseline_models)
-Find videos of past evaluations [here](https://uni-bielefeld.sciebo.de/s/m9c84YHC0qxxbZA)
+Find videos of past evaluations [here](https://drive.google.com/drive/folders/15_aQwcnlmhs9evDP-ktxeKW0nRppS_gZ?usp=sharing)
 
 
 ## train.ipynb
